@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Crop Recommendation</title>
+
+  </head>
+  <body>
+
+    <h1>CROP RECOMMENDATION</h1>
+
+    <form action="/predict" method="post">
+
+      <label for="N">NITROGEN</label>
+     <input type="number", id="N", name="N", required="required", placeholder="Enter the Value">
+     <br><br>
+
+     <label for="P">PHOSPHORUS</label>
+     <input type="number",id="P", name="P", required="required", placeholder="Enter the Value">
+     <br><br>
+
+     <label for="K">POTASSIUM</label>
+     <input type="number",id="K", name="K", required="required", placeholder="Enter the Value">
+     <br><br>
+
+     <label for="temperature">TEMPERATURE</label>
+     <input type="text",id="temperature",  name="temperature", required="required", placeholder="Enter the value(in °C)">
+     <br><br>
+
+     <label for="humidity">HUMIDITY</label>
+     <input type="text",id="humidity",  name="humidity",required="required",placeholder="Enter the value">
+     <br><br>
+
+     <label for="ph">PH</label>
+     <input type="text",id="ph",  name="ph", required="required",, placeholder="Enter the value">
+     <br><br>
+
+     <label for="rainfall">RAINFALL</label>
+     <input type="text",id="rainfall", name="rainfall", required="required", placeholder="Enter the value(in mm)">
+     <br><br>
+
+     <label></label>
+     <input id="submit", type="submit", value="Submit">
+
+    </form>
+
+
+
+
+
+  </body>
+</html>
+
