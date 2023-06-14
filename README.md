@@ -3,10 +3,7 @@
   * [Demo](#demo)
   * [Overview](#overview)
   * [Motivation](#motivation)
-  * [Installation](#installation)
-  * [Deployement on Heroku](#deployement-on-heroku) 
-  * [Directory Tree](#directory-tree)
-  * [Bug / Feature Request](#bug---feature-request)
+  * [Model Creation](#model-creation)
   * [Future scope of project](#future-scope)
   
   ## Demo
@@ -23,4 +20,21 @@ This is a Flask web app which recommed the crop based on the soil properties and
 
 * In country like India, majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield.
 
-* In this project, I present a website which predict the crop based on the soil properties and weather factors
+* In this project, I present a website which predict the crop based on the soil properties and weather factors.
+
+## Model Creation 
+
+
+
+## Model Deployment
+
+
+## Technologies Used
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
+[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src=""
+" width=280>]()
+) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+
+
